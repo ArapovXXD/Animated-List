@@ -1,0 +1,42 @@
+.buttons {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .add-button {
+    background-color: #4CAF50;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  .remove-button {
+    background-color: #f44336;
+  }
+  
+  .remove-button:hover {
+    background-color: #e53935;
+  }
+  
+  .list {
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+  }
+  
+  .element {
+    height: 100px;
+    background-color: gray;
+    flex-shrink: 0;
+  }
+  
